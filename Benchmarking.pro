@@ -17,16 +17,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     bubblesort.cpp \
+    bublesortui.cpp \
     imagetosn.cpp \
+    imagetosnui.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     bubblesort.h \
+    bublesortui.h \
     imagetosn.h \
+    imagetosnui.h \
     mainwindow.h
 
 FORMS += \
+    bublesortui.ui \
+    imagetosnui.ui \
     mainwindow.ui
 
 # Default rules for deployment.
